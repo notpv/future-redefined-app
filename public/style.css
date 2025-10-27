@@ -29,11 +29,15 @@ p {
 .search-container {
     text-align: center;
     margin: 20px;
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center items horizontally */
+    gap: 10px; /* Space between search inputs */
+    flex-wrap: wrap; /* Allow inputs to wrap on smaller screens */
 }
 
-#searchInput {
+#categorySearchInput, #speakerSearchInput {
     padding: 10px;
-    width: 300px;
+    width: 280px; /* Slightly reduced width to accommodate two inputs */
     border-radius: 5px;
     border: 1px solid #ff0000; /* Red border */
     background-color: #3a3a3a; /* Darker input background */
