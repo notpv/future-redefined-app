@@ -45,6 +45,18 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
+.loading-indicator {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+    color: #ff0000; /* Red color for loading text */
+    font-family: 'Raleway', sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
 .schedule-container {
     max-width: 900px;
     margin: 0 auto;
