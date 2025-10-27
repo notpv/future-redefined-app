@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+body {
+    background-color: #181818; /* Dark background, similar to YouTube */
+    color: #ffffff; /* White text */
+    font-family: 'Montserrat', sans-serif; /* Primary font */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #282828; /* Slightly lighter dark for header */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #ff0000; /* Red accent */
+}
+
+h1 {
+    color: #ff0000; /* Red for main title */
+    margin: 0;
+    font-family: 'Raleway', sans-serif; /* Secondary font for titles */
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Raleway', sans-serif; /* Secondary font for paragraphs */
+}
+
+.search-container {
+    text-align: center;
+    margin: 20px;
+}
+
+#searchInput {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ff0000; /* Red border */
+    background-color: #3a3a3a; /* Darker input background */
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.schedule-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.schedule-item {
+    background-color: #282828; /* Darker background for talk cards */
+    border: 1px solid #3a3a3a;
+    border-left: 5px solid #ff0000; /* Red accent on the left */
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.schedule-item h2 {
+    color: #ff0000; /* Red for talk titles */
+    margin-top: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.schedule-item p {
+    margin: 5px 0;
+}
+
+.schedule-item .time {
+    font-weight: bold;
+    color: #cccccc; /* Lighter grey for time */
+}
+
+.schedule-item .category {
+    font-style: italic;
+    color: #aaaaaa; /* Even lighter grey for category */
+}

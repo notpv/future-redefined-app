@@ -1,0 +1,44 @@
+[
+  {
+    "title": "AI-Powered Futures: Beyond the Horizon",
+    "speakers": ["Dr. Priya Sharma"],
+    "category": ["AI", "Machine Learning"],
+    "duration": "1 hour",
+    "description": "A deep dive into the latest advancements in AI and what to expect in the coming years."
+  },
+  {
+    "title": "Quantum Leaps: The Next Computing Revolution",
+    "speakers": ["Prof. Rohan Mehta"],
+    "category": ["Quantum Computing", "Physics"],
+    "duration": "1 hour",
+    "description": "Understanding the principles of quantum computing and its potential to solve complex problems."
+  },
+  {
+    "title": "Web3 and Decentralized Applications: Building the New Internet",
+    "speakers": ["Ananya Singh", "Vikram Patel"],
+    "category": ["Web3", "Blockchain"],
+    "duration": "1 hour",
+    "description": "Exploring the foundational concepts of Web3 and how decentralized applications are reshaping online interactions."
+  },
+  {
+    "title": "Bio-Integrated Tech: Merging Biology with Engineering",
+    "speakers": ["Dr. Kavita Rao"],
+    "category": ["Bio-engineering", "Biotechnology"],
+    "duration": "1 hour",
+    "description": "A discussion on the moral and ethical implications of gene editing technologies."
+  },
+  {
+    "title": "Securing the Metaverse: Challenges and Solutions",
+    "speakers": ["Arjun Reddy"],
+    "category": ["Cybersecurity", "Metaverse"],
+    "duration": "1 hour",
+    "description": "Exploring the security challenges posed by the Internet of Things and how to mitigate them."
+  },
+  {
+    "title": "Holographic Interfaces: The Future of Interaction",
+    "speakers": ["Sneha Gupta"],
+    "category": ["UI/UX", "Holography"],
+    "duration": "1 hour",
+    "description": "A look at the future of user interface design, including voice and gesture-based interactions."
+  }
+]
