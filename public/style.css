@@ -45,6 +45,28 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
+#clearSearchButton {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #ff0000;
+    background-color: #ff0000; /* Red background */
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#clearSearchButton:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
+
+.search-hint {
+    font-size: 0.9em;
+    color: #aaaaaa;
+    margin-top: 5px;
+    width: 100%; /* Ensure it takes full width in flex container */
+}
+
 .loading-indicator {
     text-align: center;
     padding: 20px;
@@ -61,6 +83,11 @@ p {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
+}
+
+.schedule-container.filtered-active {
+    border: 1px solid #ff0000; /* Highlight with red border when filtered */
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.5); /* Add a glow effect */
 }
 
 .schedule-item {

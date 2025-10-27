@@ -13,10 +13,12 @@
     </header>
     <main>
         <div class="search-container">
-            <input type="text" id="categorySearchInput" placeholder="Search by category...">
-            <input type="text" id="speakerSearchInput" placeholder="Search by speaker...">
+            <input type="text" id="categorySearchInput" placeholder="Search by category..." aria-label="Search talks by category"> <!-- Added aria-label -->
+            <input type="text" id="speakerSearchInput" placeholder="Search by speaker..." aria-label="Search talks by speaker"> <!-- Added aria-label -->
+            <button id="clearSearchButton" aria-label="Clear all search filters">Clear Search</button> <!-- Added aria-label -->
+            <p class="search-hint">Filter by category AND speaker.</p>
         </div>
-        <div id="loadingIndicator" class="loading-indicator">Loading schedule...</div> <!-- New loading indicator -->
+        <div id="loadingIndicator" class="loading-indicator">Loading schedule...</div>
         <div id="schedule" class="schedule-container"></div>
     </main>
     <script src="script.js"></script>
